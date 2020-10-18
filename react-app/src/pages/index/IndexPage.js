@@ -2,7 +2,7 @@ import React from "react";
 import TestNetworkRequest from "../test/TestNetworkRequest";
 import {Home} from "../test/TestRouter";
 import TestAntd from "../test/TestAntd";
-import logo from '../../logo.svg';
+import logo from '../../logo.png';
 
 class IndexPage extends React.Component{
   //构造器
@@ -17,7 +17,7 @@ class IndexPage extends React.Component{
     return(
       <div>
         <center>
-          <img src={logo} width={200} height={200} alt=""/>
+          <img src={logo} style={{width: "200px", height: "200px"}} alt=""/>
           <br/>
           <h1>React APP</h1>
         </center>
